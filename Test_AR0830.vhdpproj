@@ -1,0 +1,25 @@
+﻿<Project>
+  <ItemGroup>
+    <File Include="Libraries/CSI_Camera/ISSP/ISSP.qsys" />
+    <File Include="Libraries/CSI_Camera/ISSP/ISSP.qsys.vhdp" />
+    <File Include="Libraries/CSI_Camera/ALTDDIO_IN.qsys.vhdp" />
+    <File Include="Libraries/CSI_Camera/ALTSYNCRAM.qsys.vhdp" />
+    <File Include="Libraries/CSI_Camera/AR0830_Camera.vhdp" />
+    <File Include="Libraries/CSI_Camera/AR0830_Camera_Config_Test.vhdp" />
+    <File Include="Libraries/CSI_Camera/I2C.vhdp" />
+    <File Include="Libraries/Filters/Color_Correction.vhdp" />
+    <File Include="Libraries/SDRAM_HDMI/Camera_Capture_SDRAM.vhdp" />
+    <File Include="Libraries/SDRAM_HDMI/SDRAM_Controller.qsys" />
+    <File Include="Libraries/USB/USB_SDRAM_Interface.vhdp" />
+    <File Include="Libraries/USB/USB_SDRAM_PLL.qip" />
+    <File Include="Libraries/USB/USB_SDRAM_PLL.vhd" />
+    <File Include="Libraries/OnSemi_Image_Data_USB.vhdp" />
+    <File Include="Libraries/UART.vhdp" />
+    <File Include="Test_AR0830.vhdp" />
+  </ItemGroup>
+  <PropertyGroup>
+    <SelectedFpga>Core MAX10 Ultra</SelectedFpga>
+    <IoVoltage>3.3V</IoVoltage>
+    <CruviHs Extension="CameraExtension" Position="0" />
+  </PropertyGroup>
+</Project>
